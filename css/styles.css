@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+body {
+
+  background-color: rgb(246, 240, 240);
+
+}
+
+/* SECTION */
+.fb-bg-oscuro {
+  background-color: black;
+  color: white;
+}
+
+.fb-bg-light {
+  background-color: rgb(246, 240, 240);
+  color: rgb(28, 23, 23);
+}
+
+.fb-bg-light-contact {
+  background-color: rgb(175, 175, 175);
+  color: rgb(28, 23, 23);
+}
+
+
+.jb-section {
+  padding: 3rem 0;
+}
+
+.fb-secction {
+  min-height: 500px;
+}
+
+.fb-secction-presupuesto {
+  min-height: 300px;
+}
+
+.fb-secction-video {
+  min-height: 700px;
+
+}
+
+.fb-secction_general {
+  min-height: 300px;
+}
+
+.SectionPading {
+  padding-top: 10%;
+}
+/* IMAGEN LOGO */
+.imgLogo {
+  float: left;
+  margin-right: 10px;
+  margin-top: -10px;
+  width: 70%;
+}
+
+/* VIDEO  */
+.cuadrovideo video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180%;
+  object-fit: cover;
+  opacity: 0.7;
+
+}
+.img-video-logo{
+  width: 40%;
+
+}
+
+.cuadrovideo {
+  position: relative;
+  overflow: hidden;
+}
+
+.titulo_header {
+  position: absolute;
+  top: 250px;
+  right: 2%;
+  width: 25%;
+  object-fit: cover;
+  color: white;
+}
+
+/* TITULO */
+ .nombre-titulo {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
+
+} 
+
+.eslogan-titulo {
+  font-family: "Dancing Script", cursive;
+
+
+}
+
+header {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* PEDIR PRESUPUESTO */
+.presupuesto {
+  padding-top: 2%;
+}
+
+.titulo_section-presupuesto {
+  font-family: "Sedan", serif;
+  font-style: normal;
+  font-family: "Lobster", sans-serif;
+}
+
+.titulo_section-presupuesto-p {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+
+}
+
+/* BOTON  */
+.btn_presupuesto {
+  padding-top: 5%;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+
+}
+
+/* //NOSOTROS// */
+.nosotrosTxt{
+  margin-left: 1%;
+}
+/* FOOTER */
+
+.QueOfrecemos {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* //TEXTO SERVICIOS// */
+
+.txtServicio{
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+   margin-bottom: -5%;
+  }
+/* .boxTxtServicio{
+margin-top: -3%;
+} */
+
+/* //fOOTER// */
+.inf-footer {
+  font-family: "Dancing Script", cursive;
+
+}
+footer {
+  padding-top: 3%;
+}
+
+.enlace {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo-footer {
+  width: 40%;
+   margin-top: -10px;
+}
+.logo-txt-footer {
+  
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footer-txt-prosupuesto{
+  font-family: "Sedan", serif;
+  font-style: normal;
+  font-family: "Lobster", sans-serif;
+  font-weight: 300;
+  padding-top: 3%;
+
+}
+
+.footer-txt-prosupuesto-btn{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  padding-top: 1%;
+}
+
+.bi-whatsapp{
+  /* color:   rgb(230, 192, 54); */
+  color: white;
+}
+
+.bi-instagram{
+  /* color: rgb(230, 192, 54); */
+  color: white;
+}
+
+.bi-facebook{
+  color: white;
+
+}
+.MVReformaIntegral{
+  color: rgb(230, 192, 54);
+  text-decoration: none;
+}
+
+/* CARDS */
+.card {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.card-title {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* BTN INF CARDS´ */
+.info {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+
+}
+/* PAG LEGAL */
+.legal {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+/* PAG PRIVACIDAD */
+.privacidad {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+/* FORM PRESUPUESTO */
+.txt-form{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.img-contacto {
+  width: 20%;
+
+}
+
+.nombre-titulo_contacto {
+ 
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* //IMAGEN GRUPO// */
+.imagenGrupo1{
+width: 80%;
+position: relative;
+}
+
+
+ 
+      
+      .imagenGrupo2,
+      .imagenGrupo3,
+      .imagenGrupo4 {
+        width: 10%;
+        position: absolute;
+      }
+      
+      .imagenGrupo2 {
+        top: 47%;
+        right: -1%;
+        transform: translate(-100%, -100%);
+      }
+      
+      .imagenGrupo3 {
+        top: 80%;
+        right: 14%;
+        transform: translate(50%, -50%);
+      }
+      
+      .imagenGrupo4 {
+        top: 60%;
+        right: 24%;
+        transform: translate(150%, -50%);
+      }
+
+             
+      
+      @media (max-width: 1300px) {
+        .imagenesPequenas2,
+        .imagenesPequenas3,
+        .imagenesPequenas4 {
+          display: none;
+        }
+      }
+      
+      
+      /* .imagenesPequenasDerecha {
+        display: flex;
+        justify-content: start;
+        position: relative;
+        top: -600px; 
+      } */
+      
+      
+     /* PARA QUE LA VENTANA SE ABRA Y CIERRA DE LA GALERIA PARCIAL */
+     .ventana{
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 110%;
+      height: 110%;
+      background-color: rgba(0,0,0,.85);
+  
+    }
+  
+    .ventana-content{
+      padding-top: 5%;
+      margin: auto;
+      display: block;
+      
+      max-width: 100%;
+      max-height: 100%;
+    }
+  
+    .close{
+      position: absolute;
+      top: 85px;
+      right: 135px;
+      color: #f1f1f1;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: xx-large;
+    }
+  
+    .gallery-image{
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }  
+    
+/* GALERIA EN FOTOS CONTACTOS  */
+.carouselNosotros-inner .carouselNosotros-item img {
+  width: 100%;
+  height: 400px; /* Altura máxima deseada */
+  object-fit: cover;
+}
+
+/* //CARRUSEL // */
+#carouselExample {
+  height: 400px; /* Ajusta la altura según sea necesario */
+}
+
+#carouselExample .carousel-item img {
+  max-height: 400px; /* Establece la altura máxima de las imágenes */
+  width: auto; /* Permite que el ancho de la imagen se ajuste automáticamente */
+}
+
+
+
+
+.carouselNosotros {
+  width: 100%;
+  overflow-x: scroll;
+  /* padding: 30px;
+  padding-top: 80px; */
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 8%;
+}
+
+.carouselNosotros__container {
+  white-space: nowrap;
+  margin: 70px 0px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.categories__title {
+ color: rgb(77, 55, 102);
+  font-size: 28px;
+  position: absolute;
+  padding-left: 20px;
+}
+
+.carouselNosotros-item {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #95bcd6;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-top: 50px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: 1000ms all;
+  transition: 1000ms all;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+  position: relative;
+}
+
+.carouselNosotros-item:hover ~ .carouselNosotros-item {
+  -webkit-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+}
+
+.carouselNosotros__container:hover .carouselNosotros-item {
+  opacity: 0.3;
+}
+
+.carouselNosotros__container:hover .carouselNosotros-item:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.carouselNosotros-item__img {
+  width: 200px;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.carouselNosotros-item__details {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.9)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  font-size: 10px;
+  opacity: 0;
+  -webkit-transition: 450ms opacity;
+  transition: 450ms opacity;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carouselNosotros-item__details:hover {
+  opacity: 1;
+}
+
+.carouselNosotros-item__details span {
+  /* width: 10px;
+  height: 10px; */
+  font-size: 0.9rem;
+  color: #2ecc71;
+  /* background-color: white; */
+}
+
+.carouselNosotros-item__details .controls {
+  padding-top: 180px;
+}
+
+.carouselNosotros-item__details .carouselNosotros-item__details--title,
+.carouselNosotros-item__details--subtitle {
+  color: #fff;
+  margin: 5px 0;
+}
+
+
+ /* //animacion parcial// */
+
+/* @keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.gallery-image {
+  animation: fadeIn 1s ease-in-out;
+} */
+
+
+  /* Animación de zoom  */
+/* @keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+
+.gallery-image {
+  animation: zoom 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}  */
+.gallery-image {
+  transition: transform 0.5s ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1); /* Cambia el valor según sea necesario para el efecto deseado */
+}
+
+
+
+/* Estilos personalizados solo para los botones activos de Bootstrap */
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+ 
+  margin: 0 auto;
+    background-color: rgb(235, 227, 227); /* Cambia el color de fondo cuando el botón está activo */
+    border-color: rgb(237, 236, 236); /* Cambia el color del borde cuando el botón está activo */
+    color: rgb(0, 0, 0); /* Cambia el color del texto cuando el botón está activo */
+}
+
+/* Restablece los estilos para los botones inactivos */
+.nav-pills .nav-link,
+.nav-pills .nav-link:focus,
+.nav-pills .nav-link:hover {
+    background-color: transparent; /* Restablece el color de fondo de los botones inactivos */
+    border-color: transparent; /* Restablece el color del borde de los botones inactivos */
+    color: rgb(255, 255, 255); /* Restablece el color del texto de los botones inactivos */
+}
+
+
+/* PARALLAX */
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 450px; 
+  /* Ajusta la altura según sea necesario */
+}
+
+
+
+.parallax-parcial {
+  background-image: url("../img/galeria/IMG_5319.JPG");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 2%;
+  padding: 0%;
+  display: flex;
+  background-size: cover;
+}
+
+/* color texto blanco parallax */
+.texto-blanco {
+  color: white;
+}
+
+
+
+.parallax-servicio{
+  background-image: url("../img/galeria/water-faucet-2525392_1280.jpg");
+  /* height: 550px; */
+  min-height: 550px; /* Cambia la altura mínima según sea necesario */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 2%;
+  padding: 0%;
+  display: flex;
+  background-size: cover;
+
+}
+
+.parallax-servicio h1 {
+  color: #f3eee7;
+  justify-content: center; /* Esto no es necesario aquí */
+  align-self: center; /* Esto no es necesario aquí */
+  margin: 5%;
+  font-size: 46px;
+  display: flex; /* Para permitir el centrado vertical */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+}
+
+
+.parallax-integral{
+  background-image: url("../img/galeria/living-room-1597078_1280.jpg");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 2%;
+  padding: 0%;
+  display: flex;
+  background-size: cover;
+
+}
+
+
