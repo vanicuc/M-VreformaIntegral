@@ -62,8 +62,44 @@ enlaceprivacidad.addEventListener("click", () => {
 
 
 //boton pedir presupuesto //
+
 function redirect() {
  
   window.location.href = "presupuesto.html";
 }
+  // Función para detectar si el usuario está en un dispositivo móvil
+  function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  }
 
+  // Obtener el elemento de video
+  var video = document.getElementById("myVideo");
+
+  // Si no es un dispositivo móvil, reproducir el video automáticamente
+  if (!isMobileDevice()) {
+    video.play();
+  }
+
+
+  //VIDEO 
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("myVideo");
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      var playButton = document.createElement("button");
+      playButton.innerHTML = "Play";
+      playButton.classList.add("play-button");
+      playButton.addEventListener("click", function() {
+        video.play();
+        playButton.style.display = "none";
+      });
+
+      // Verificar si el elemento de video existe antes de insertar el botón de reproducción
+      if (video) {
+        video.parentNode.insertBefore(playButton, video);
+      }
+    } else {
+      video.play();
+    }
+  });
