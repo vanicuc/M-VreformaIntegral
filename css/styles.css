@@ -378,16 +378,16 @@ position: relative;
     }  
     
 /* GALERIA EN FOTOS CONTACTOS  */
+
+  /* Estilo para que las imágenes ocupen el 100% del ancho del carrusel */
+  
+
 .carouselNosotros-inner .carouselNosotros-item img {
   width: 100%;
   height: 400px; /* Altura máxima deseada */
   object-fit: cover;
 }
 
-/* //CARRUSEL // */
-#carouselExample {
-  height: 400px; /* Ajusta la altura según sea necesario */
-}
 
 #carouselExample .carousel-item img {
   max-height: 400px; /* Establece la altura máxima de las imágenes */
@@ -507,6 +507,20 @@ position: relative;
   color: #fff;
   margin: 5px 0;
 }
+
+
+/* Estilos CSS personalizados */
+.carousel-item img {
+  max-width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
+  height: auto; /* Permite que las imágenes mantengan su relación de aspecto */
+}
+@media (max-width: 576px) {
+  #carouselExample .carousel-item img {
+    max-height: 300px !important; /* Limita la altura máxima de las imágenes en dispositivos móviles */
+  }
+}
+
+
 
 
  /* //animacion parcial// */

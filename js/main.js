@@ -41,22 +41,24 @@ enlaceprivacidad.addEventListener("click", () => {
 
 
 /// PARA QUE LA VENTANA DE LA GALERIA SE HAGA GRANDE ///
-let modal =document.getElementById("modalFoto");
-let modalImg= document.getElementById("modalImage");
 
-let imagenes = document.getElementsByClassName("gallery-image");
+// let modal =document.getElementById("modalFoto");
+// let modalImg= document.getElementById("modalImage");
 
-for(let i= 0; i < imagenes.length; i++){
-    imagenes[i].addEventListener("click", function(){
-        modal.style.display="block";
+// let imagenes = document.getElementsByClassName("gallery-image");
+
+// for(let i= 0; i < imagenes.length; i++){
+//     imagenes[i].addEventListener("click", function(){
+//         modal.style.display="block";
     
-        modalImg.src= imagenes[i].src ;
-    })
-};
-let close= document.querySelector(".close");
-close.addEventListener("click", function(){
-    modal.style.display="none";
-})
+//         modalImg.src= imagenes[i].src ;
+//     })
+// };
+// let close= document.querySelector(".close");
+// close.addEventListener("click", function(){
+//     modal.style.display="none";
+// })
+
 
 
 //boton pedir presupuesto //
@@ -64,3 +66,4 @@ function redirect() {
  
   window.location.href = "presupuesto.html";
 }
+
