@@ -82,24 +82,26 @@ function redirect() {
 
 
   //VIDEO 
-  document.addEventListener("DOMContentLoaded", function() {
-    var video = document.getElementById("myVideo");
-    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   var video = document.getElementById("myVideo");
+  //   var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-    if (isMobile) {
-      var playButton = document.createElement("button");
-      playButton.innerHTML = "Play";
-      playButton.classList.add("play-button");
-      playButton.addEventListener("click", function() {
-        video.play();
-        playButton.style.display = "none";
-      });
+  //   if (isMobile) {
+  //     var playButton = document.createElement("button");
+  //     playButton.innerHTML = "Play";
+  //     playButton.classList.add("play-button");
+  //     playButton.addEventListener("click", function() {
+  //       video.play();
+  //       playButton.style.display = "none";
+  //     });
 
-      // Verificar si el elemento de video existe antes de insertar el botón de reproducción
-      if (video) {
-        video.parentNode.insertBefore(playButton, video);
-      }
-    } else {
-      video.play();
-    }
-  });
+  //     // Verificar si el elemento de video existe antes de insertar el botón de reproducción
+  //     if (video) {
+  //       video.parentNode.insertBefore(playButton, video);
+  //     }
+  //   } else {
+  //     video.play();
+  //   }
+  // });
+
+  

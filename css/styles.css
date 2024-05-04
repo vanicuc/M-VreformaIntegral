@@ -66,6 +66,22 @@ body {
   opacity: 0.7;
 
 }
+
+/* Por defecto, ocultar el video para dispositivos móviles */
+.video-movil {
+  display: none;
+}
+
+/* Mostrar el video para dispositivos móviles y ocultar el video para web */
+@media only screen and (max-width: 768px) {
+  .video-movil {
+    display: block;
+  }
+  .video-web {
+    display: none;
+  }
+}
+
 .img-video-logo{
   width: 40%;
 
